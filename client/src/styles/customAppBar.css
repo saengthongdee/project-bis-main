@@ -1,0 +1,28 @@
+.nav-button {
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
+}
+
+.nav-button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-button.active {
+  opacity: 1;
+}
+
+.nav-button-container hr {
+  border: 2px solid #D9D9D9;
+  border-radius: 6px;
+}
+
+.toolbar-container {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 40px;
+}
+
+.icon-button {
+  opacity: 1;
+}
